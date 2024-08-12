@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dashboard">
+
+    <fragment
+        android:id="@+id/nav_dashboard"
+        android:name="com.example.recipeapp.Activities.Admin.ui.Dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_admin_dashboard" />
+
+    <fragment
+        android:id="@+id/nav_add_recipe"
+        android:name="com.example.recipeapp.Activities.Admin.ui.AddRecipe.AddRecipeFragment"
+        android:label="@string/title_add_recipe"
+        tools:layout="@layout/fragment_add_recipe" />
+
+    <fragment
+        android:id="@+id/nav_add_category"
+        android:name="com.example.recipeapp.Activities.Admin.ui.AddCategory.AddCategoryFragment"
+        android:label="@string/title_category"
+        tools:layout="@layout/fragment_add_category" />
+</navigation>

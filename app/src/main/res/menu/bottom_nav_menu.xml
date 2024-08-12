@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/dashboard"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/nav_add_recipe"
+        android:icon="@drawable/add_recipe"
+        android:title="@string/title_add_recipe" />
+
+    <item
+        android:id="@+id/nav_add_category"
+        android:icon="@drawable/add_category"
+        android:title="@string/title_category" />
+
+
+</menu>

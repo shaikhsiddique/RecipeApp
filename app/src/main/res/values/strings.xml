@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Recipe App</string>
+    <string name="content_signin">Sign in to your account and unlock a personalized culinary experience. Explore curated recipes, track your cooking journey, and connect with a community of food enthusiasts.</string>
+    <string name="signup">Create an account to save your favorite recipes, share your culinary masterpieces, and connect with a community passionate about cooking. Your next delicious adventure starts with just a few simple steps.</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_add_recipe">Add Recipe</string>
+    <string name="title_category">Category</string>
+    <string name="title_activity_user">UserActivity</string>
+</resources>
